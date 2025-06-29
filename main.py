@@ -6,8 +6,8 @@ from telegram.ext import (
     filters, ContextTypes, ChatMemberHandler
 )
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
-allowed_users_env = os.getenv("ALLOWED_USERS", "")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7978250911:AAG5iYSjGkctGJwlYeSqphleaHjsdchAg28")
+allowed_users_env = os.getenv(" 6651587432", "")
 ALLOWED_USERS = set(int(uid.strip()) for uid in allowed_users_env.split(",") if uid.strip().isdigit())
 
 # Group-wise setting container
